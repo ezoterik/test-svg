@@ -1,0 +1,27 @@
+{
+    "name": "test-sgv",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "scripts": {
+        "build": "cross-env NODE_ENV=production webpack --mode production",
+        "dev": "cross-env NODE_ENV=development webpack --mode development"
+    },
+    "author": "ezoterik",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.0",
+        "babel-loader": "^8.2.3",
+        "babelify": "^10.0.0",
+        "cross-env": "^7.0.3",
+        "css-loader": "^6.5.0",
+        "mini-css-extract-plugin": "^2.4.3",
+        "raw-loader": "^4.0.2",
+        "style-loader": "^3.3.1",
+        "svg-sprite-loader": "^6.0.11",
+        "webpack": "^5.61.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.4.0"
+    }
+}
